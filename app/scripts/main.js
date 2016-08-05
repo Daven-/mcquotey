@@ -30,7 +30,7 @@ function getRandomQuote(){
 
       setTimeout(function() {
         var quote = '"' + quoteO.joke + '"';
-        $('.twitter-share-button').attr('href', 'https://twitter.com/intent/tweet?text=' + quote)
+        $('.share').attr('href', 'https://twitter.com/intent/tweet?text=' + quote)
         $('#quote').text(quote);
         $('.quote-container').removeClass('animated hinge');
 
